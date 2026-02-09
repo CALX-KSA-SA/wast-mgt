@@ -1,0 +1,65 @@
+/* Base Theme Classes */
+.theme-section {
+    --section-accent: var(--accent-primary);
+    --section-bg-gradient: radial-gradient(circle at center, #1a1a1a, #000);
+}
+
+/* Medical Unit: Sterile, High Tech, Blue/Cyan */
+.theme-medical {
+    --section-accent: #00bcd4;
+    /* Cyan */
+    --section-secondary: #e0f7fa;
+    /* Pale Cyan */
+    --section-bg-gradient: radial-gradient(circle at 20% 50%, #006064 0%, #000 70%);
+    --chart-color: #00bcd4;
+}
+
+/* Tires Unit: Aggressive, Industrial, Orange/Black */
+.theme-tires {
+    --section-accent: #ff5722;
+    /* Deep Orange */
+    --section-secondary: #ffab91;
+    /* Light Orange */
+    --section-bg-gradient: radial-gradient(circle at 80% 20%, #3e1b14 0%, #000 70%);
+    --chart-color: #ff5722;
+}
+
+/* Oils Unit: Natural, Premium, Gold/Green */
+.theme-oils {
+    --section-accent: #d4af37;
+    /* Gold */
+    --section-secondary: #66bb6a;
+    /* Green */
+    --section-bg-gradient: radial-gradient(circle at 50% 50%, #1b2e0a 0%, #000 80%);
+    --chart-color: #ffd700;
+}
+
+/* Agri/Date Stones: Earthy, Nutritious, Amber/Brown */
+.theme-agri {
+    --section-accent: #ffb300;
+    /* Amber */
+    --section-secondary: #8d6e63;
+    /* Brown */
+    --section-bg-gradient: radial-gradient(circle at 10% 90%, #3e2723 0%, #000 70%);
+    --chart-color: #ffb300;
+}
+
+/* Slaughterhouse: Biological, Clean, Crimson/Red */
+.theme-slaughter {
+    --section-accent: #e53935;
+    /* Red */
+    --section-secondary: #ef9a9a;
+    /* Light Red */
+    --section-bg-gradient: radial-gradient(circle at 90% 50%, #2b0b0b 0%, #000 70%);
+    --chart-color: #e53935;
+}
+
+/* E-Waste: Electric, Circuitry, Copper/Blue */
+.theme-ewaste {
+    --section-accent: #b87333;
+    /* Copper */
+    --section-secondary: #2979ff;
+    /* Electric Blue */
+    --section-bg-gradient: radial-gradient(circle at 30% 30%, #0d1b2a 0%, #000 70%);
+    --chart-color: #00e5ff;
+}
